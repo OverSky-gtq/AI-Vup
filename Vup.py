@@ -29,6 +29,8 @@ openai.api_base = "https://chat-gpt.aurorax.cloud/v1"
 # 创建一个服务，把当前这个python文件当做一个服务
 server = Flask(__name__)
 
+# -*- coding: utf-8 -*-
+
 # 重置会话接口
 @server.route('/reset_chat', methods=['post'])
 def reset_chat():
@@ -190,7 +192,7 @@ async def on_danmaku(event):
 
         # 播放音频
         pygame.mixer.init()
-        pygame.mixer.music.load('temp.mp3')
+        pygame.mixer.music.load('output.mp3')
         # 降低音量
         pygame.mixer.music.set_volume(0.8)
         # 播放音乐流
