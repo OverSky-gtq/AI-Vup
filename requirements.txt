@@ -1,5 +1,5 @@
-bilibili_api==9.1.0
-bilibili_api_python==15.3.1
-Flask==2.2.2
-openai==0.27.0
-pygame==2.3.0
+bilibili_api
+Flask
+openai
+pygame
+edge-tts
