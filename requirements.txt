@@ -1,4 +1,4 @@
-bilibili_api
+bilibili-api-python
 Flask
 openai
 pygame
